@@ -49,20 +49,20 @@ const All = () => {
   return (
     <div>
       {memes.map((meme, index) => (
-        <div key={index}>
-          <h2>{meme.title}</h2>
+        <div className="memeField" key={index}>
+          <h2 className="memeTitle">{meme.title}</h2>
           <p>
             <img src={meme.img} alt={meme.title} />
           </p>
-          <button onClick={() => upvoteMeme(index)}>
+          <button className="upvote" onClick={() => upvoteMeme(index)}>
             Upvotes: {meme.upvotes}
           </button>
           &nbsp;&nbsp;&nbsp;
-          <button onClick={() => downvoteMeme(index)}>
+          <button className="downvote" onClick={() => downvoteMeme(index)}>
             {/* przekazuję argument (index), którego mema ma zwiększyć  */}
             Downvotes: {meme.downvotes}
           </button>
-          <p>Score: {meme.upvotes-meme.downvotes}</p>
+          <p className="score">Score: {meme.upvotes-meme.downvotes}</p>
         </div>
       ))}
     </div>

@@ -8,8 +8,8 @@ const hotMemes = memes.filter((meme) => meme.upvotes - meme.downvotes > 5);
 <div>
       <h2>Hot Memes</h2>
       {hotMemes.map((meme, index) => (
-        <div key={index}>
-          <h3>{meme.title}</h3>
+        <div className="memeField" key={index}>
+          <h2>{meme.title}</h2>
           <p>
             <img src={meme.img} alt={meme.title} />
           </p>

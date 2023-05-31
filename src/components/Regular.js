@@ -10,8 +10,8 @@ const Regular = ({ memes }) => {
     <div>
       <h2>Regular, not hot. What a trash!</h2>
       {regularMemes.map((meme, index) => (
-        <div key={index}>
-          <h3>{meme.title}</h3>
+        <div className="memeField" key={index}>
+          <h2>{meme.title}</h2>
           <p>
             <img src={meme.img} />
           </p>

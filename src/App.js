@@ -5,6 +5,7 @@ import Hot from "./components/Hot";
 import AddMeme from "./components/AddMeme";
 import Regular from "./components/Regular";
 import Mem, { allMemes } from "./components/Mem";
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Navigation />
         <main>
           <Routes>
+            
             <Route path="/" element={<Mem />} />
             <Route path="/regular" element={<Regular memes={allMemes} />} />
             <Route path="/hot" element={<Hot memes={allMemes} />} />
@@ -20,6 +22,7 @@ function App() {
             <Route path="/add_meme" element={<AddMeme />} />
           </Routes>
         </main>
+        <Footer />
       </BrowserRouter>
     </div>
   );

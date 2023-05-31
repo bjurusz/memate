@@ -1,12 +1,81 @@
+body {
+  background-color: rgb(32, 32, 32);
+  font-family: Arial, Helvetica, sans-serif;
+  color: azure;
+}
+
+.downvote {
+  background: #ff4742;
+  border: 1px solid #ff4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.downvote:hover {
+  background-color: white;
+  background-position: 0 0;
+  color: #ff4742;
+}
+
+.upvote {
+  background: hsl(113, 84%, 32%);
+  border: 1px solid hsl(113, 84%, 32%);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.upvote:hover {
+  background-color: white;
+  background-position: 0 0;
+  color: hsl(113, 84%, 32%);
+}
+
 .navigation ul {
   list-style: none;
   text-align: center;
   margin: 0;
   padding: 0;
-  top:0;
+  top: 0;
   position: fixed;
   background-color: rgb(23, 23, 23);
   width: 100%;
+  font-size: 32px;
 }
 .LI_IMG {
   float: left;
@@ -41,4 +110,46 @@ h1 {
 
 main {
   margin-top: 100px;
+}
+
+.memeField {
+  border: solid 1px;
+  border-color: rgb(32, 32, 32);
+
+  padding: 1px;
+
+  width: 50vw;
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: rgb(40, 40, 40);
+}
+
+div p img {
+  width: 460px;
+}
+
+h2 {
+  font-size: 33px;
+
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.logo {
+  width: 50%;
+  height: 50%;
+  margin: 0px auto;
+  padding: 7px;
+  background: rgb(61, 61, 61);
+}
+
+.Footer {
+  margin: 2px auto;
+  border-top: solid 5px rgb(40, 40, 40);
 }

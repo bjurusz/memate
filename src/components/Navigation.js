@@ -5,6 +5,7 @@ const Navigation = () => {
   return (
     <div className="navigation">
       <ul>
+     
         <li>
           <NavLink to="/">Main (All Memes)</NavLink>
         </li>
@@ -14,9 +15,7 @@ const Navigation = () => {
         <li>
           <NavLink to="/hot">Hot</NavLink>
         </li>
-        <li>
-          {/* <NavLink to="/add_meme">Add meme</NavLink> */}
-        </li>
+     
       </ul>
     </div>
   );
