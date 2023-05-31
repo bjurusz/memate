@@ -1,3 +1,12 @@
+React-router-dom needed. 
+
+Main pages shows all memes from the table. 
+
+/hot route filters for memes with score higher than 5. 
+
+/regular route filters array for memes under or equal scoe than 5. 
+
+-----------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
